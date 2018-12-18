@@ -3,6 +3,8 @@
 D = /usr/local
 
 install:
+	mkdir -p $(D)/bin
+	cp flatc $(D)/bin
 	mkdir -p $(D)/include/
 	cp -r include $(D)/include/v8
 	mkdir -p $(D)/lib/v8
