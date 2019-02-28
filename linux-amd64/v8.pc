@@ -1,0 +1,5 @@
+Name: v8
+Description: v8
+Version: xxx
+Cflags: -I/usr/local/include/v8
+Libs: /usr/local/lib/v8/libv8_monolith.a
